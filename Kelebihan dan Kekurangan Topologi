@@ -1,0 +1,80 @@
+Topologi Mesh
+
+Kelebihan:
+
+1. Setiap perangkat terhubung dengan banyak perangkat lain, mengurangi kemungkinan kegagalan jaringan
+2. Data dapat melalui beberapa jalur, meningkatkan keamanan
+3. Jika satu jalur gagal, data dapat dialihkan melalui jalur alternatif
+4. Mudah untuk menambah perangkat baru tanpa mengganggu jaringan
+5. Kinerja jaringan tetap stabil karena jalur alternatif
+
+Kekurangan:
+
+1. Memerlukan banyak kabel dan perangkat, sehingga biaya tinggi
+2. Instalasi dan konfigurasi rumit
+3. Pengelolaan dan pemeliharaan bisa sulit karena banyaknya koneksi
+4. Jumlah kabel yang dibutuhkan sangat banyak, meningkatkan kompleksitas fisik
+5. Membutuhkan lebih banyak waktu dan upaya untuk perencanaan dan pemeliharaan
+
+
+Topologi Star
+
+Kelebihan:
+
+1. Jika satu kabel atau perangkat gagal, hanya perangkat tersebut yang terpengaruh
+2. Mudah untuk mengidentifikasi dan memperbaiki masalah pada perangkat individual
+3. Menambah perangkat baru cukup mudah tanpa mengganggu jaringan yang ada
+4. Karena setiap perangkat terhubung ke hub atau switch pusat, data bisa lebih mudah dikontrol
+5. Hub atau switch mengelola lalu lintas jaringan, sehingga mengurangi kemungkinan tabrakan data
+
+Kekurangan:
+
+1. Jika hub atau switch pusat gagal, seluruh jaringan akan terputus
+2. Memerlukan lebih banyak kabel dan perangkat keras, yang bisa mahal
+3. Jarak antara perangkat dan pusat terbatas oleh kabel
+4. Instalasi bisa rumit dan memerlukan manajemen kabel yang baik
+5. Bandwidth dapat dibagi-bagi di antara perangkat yang terhubung ke hub atau switch
+
+
+Topologi Bus
+
+Kelebihan:
+
+1. Memerlukan kabel yang lebih sedikit dan lebih murah
+2. Mudah dipasang dan diatur
+3. Hanya membutuhkan satu kabel utama, mengurangi kebutuhan kabel tambahan
+4. Mudah untuk menambah perangkat baru tanpa mempengaruhi yang lain
+5. Mudah dibuat dengan biaya yang rendah
+
+Kekurangan:
+
+1. Jika kabel utama mengalami gangguan, seluruh jaringan terputus
+2. Kinerja dapat menurun seiring dengan bertambahnya perangkat
+3. Sulit untuk mendeteksi dan memperbaiki masalah pada kabel utama
+4. Pemeliharaan dan pengelolaan jaringan bisa rumit
+5. Jarak kabel terbatas, yang bisa membatasi ukuran jaringan
+
+
+Topologi Ring
+
+Kelebihan:
+
+1. Data melewati jaringan dalam satu arah, mengurangi tabrakan data
+2. Beban distribusi merata di seluruh jaringan
+3. Menambah perangkat baru mudah tanpa mengganggu jaringan yang ada
+4. Mudah mendeteksi dan mengisolasi masalah karena data bergerak dalam satu arah
+5. Setiap perangkat memeriksa data yang dikirim, meningkatkan keamanan
+
+Kekurangan:
+
+1. Jika satu perangkat atau kabel gagal, seluruh jaringan bisa terputus
+2. Kinerja bisa menurun seiring dengan penambahan perangkat
+3. Biaya instalasi dan pemeliharaan bisa tinggi
+4. Pengelolaan dan pemeliharaan lebih rumit daripada topologi lainnya
+5. Data memerlukan waktu lebih lama untuk mencapai tujuan akhir jika jalur panjang
+
+Kesimpulan : 
+- Untuk keandalan dan toleransi kesalahan tinggi: Pilih topologi mesh
+- Untuk pengelolaan yang mudah dan skalabilitas: Pilih topologi star
+- Untuk jaringan kecil dengan biaya rendah: Pilih topologi bus
+- Untuk kinerja stabil dengan jalur data teratur: Pilih topologi ring
